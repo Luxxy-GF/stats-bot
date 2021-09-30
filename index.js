@@ -38,7 +38,7 @@ client.on("message", async(message) => {
             .setDescription(`\`\`\`yaml\n${systeminfo}\`\`\``)
             .setColor('#121212')
             message.channel.send(dellembed)
-        })
+        }).cache(e => message.channel.send(`this host is not online :(`))
         
     }
 

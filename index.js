@@ -20,7 +20,6 @@ client.on("message", async(message) => {
                 "password": process.env.dellpassword
             },
         }).then(response => {
-            console.log(response.data)
             const systeminfo = stripIndent`
             servername   : ${response.data.info.servername}
             cpu model    : ${response.data.info.cpu}

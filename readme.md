@@ -1,6 +1,9 @@
 # stats-bot
 This script hosts a discord bot to get data from the host for https://github.com/Luxxy-GF/Linux-Stats and display the stats
 
+### Note 
+this is using discord.js v12 this verison is not supported by discord.js i not looking to upgrade to discord.js v13 if you want to make a pull request for discord.js v13 verison of this bot i will add it to the repo
+
 ## Getting Started
 These instructions will get the script up and running 
 
@@ -20,7 +23,3 @@ copy the .env.template to .env and fill in the bot token from https://discord.de
 
 also change the ip to your host ip 
 ```
-
-
-### Note 
-this is using discord.js v12 this verison is not supported by discord.js i not looking to upgrade to discord.js v13 if you want to make a pull request for discord.js v13 verison of this bot i will add it to the repo

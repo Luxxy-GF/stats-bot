@@ -22,3 +22,10 @@ This will install all needed packages
 copy the .env.template to .env and fill in the bot token from https://discord.dev and the password you set for your https://github.com/Luxxy-GF/Linux-Stats config
 
 also change the ip to your host ip
+
+### Starting the bot 
+to start the bot you need a command from nodejs
+```
+node . 
+```
+this should start the bot

@@ -21,5 +21,4 @@ This will install all needed packages
 ### Setting up config.json
 copy the .env.template to .env and fill in the bot token from https://discord.dev and the password you set for your https://github.com/Luxxy-GF/Linux-Stats config
 
-also change the ip to your host ip 
-```
+also change the ip to your host ip
